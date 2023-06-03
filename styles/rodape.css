@@ -10,3 +10,42 @@ hr {
 .rodape__titulo {
     color: var(--azul);
 }
+
+.rodape__lista {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+        color: var(--preto);
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+    .rodape__lista-titulo {
+        font-size: 14px;
+        color: var(--cinza-titulo);
+        text-transform: uppercase;
+    }
+
+    .rodape__lista-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        margin: 1em 0;
+    }
+
+    .rodape__lista-link {
+        font-size: 14px;
+        text-decoration: none;
+        color: var(--cinza-texto);
+    }
+}

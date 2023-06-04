@@ -95,3 +95,36 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__titulo {
+        padding: 1.5em 0 0.5em 0;
+    }
+
+    .carrossel__container {
+        display: flex;
+        align-items: end;
+        gap: 3em;
+        margin: 0 15vw 2em 15vw;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-pagination {
+        margin: 1em;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__livro {
+        margin: 1em 0;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+}

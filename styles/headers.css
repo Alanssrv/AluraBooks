@@ -63,6 +63,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo-negrito {
         font-family: var(--fonte-secundaria);
@@ -99,5 +103,24 @@
 
     .lista-menu {
         left: initial;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        text-decoration: none;
+        color: var(--preto);
+    }
+    
+    .opcoes {
+        margin-right: auto;
     }
 }
